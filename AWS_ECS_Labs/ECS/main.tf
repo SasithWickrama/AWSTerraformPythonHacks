@@ -1,5 +1,3 @@
-
-
 data "aws_vpc" "existing" {
   id = var.vpc_id  
 }
@@ -70,4 +68,5 @@ resource "aws_ecs_service" "service" {
     security_groups  = [aws_security_group.ecs_sg.id]
     assign_public_ip = true
   }
+
 }

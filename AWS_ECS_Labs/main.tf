@@ -1,4 +1,3 @@
-/*
 module "ecs" {
   source                  = "./ECS"
   vpc_id                  = "vpc-29568551"
@@ -9,4 +8,4 @@ module "ecs" {
   execution_role_arn      = "arn:aws:iam::357171621133:role/ETLlambdaAccessRole"
   image_id                = "357171621133.dkr.ecr.us-west-2.amazonaws.com/ecsdemo:latest"
 }
-*/
+
